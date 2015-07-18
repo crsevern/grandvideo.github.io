@@ -1,0 +1,200 @@
+
+
+.mainphoto{
+	position: relative;
+	display: inline-block;
+	margin-left: 3%;
+	height: 500px;
+	margin-top: 3.5%;
+
+	
+}
+
+#gif{
+	border-radius: 25px;
+	height: 480px;
+}
+
+#text{
+	position: relative;
+	display: inline-block;
+	padding-top: 2%;
+	height: 500px;
+	width: 400px;
+	margin-top: 4%;
+	margin-left: 3%;
+	text-align: center;
+	font-family: Frente;
+	font-size: xx-large;
+	background-color: white;
+	vertical-align: top;
+}
+
+.container{
+	position: fixed;
+	top:0;
+   	width: 4000px;
+	
+	
+}
+#maintitle{
+	font-family: helvetica, calibri, sans-serif;
+	size: x-large
+	color: #3F82CE;
+	text-align: center;
+}
+body{
+	width: auto;
+	height: auto;
+	padding: 0;
+	}
+
+
+#headerimage{
+	position: fixed;
+   	width: 340px;
+	top: 10px;
+	left: 50%;
+	margin-left: -170px;
+}
+
+
+.nav{
+	float: left;
+	position: fixed;
+	background-color: #3F82CE;
+	height: 200px;
+	width: 100px;
+	margin-top: auto;
+	margin-bottom: auto; 
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-family: Frente;
+	color: white;
+	padding: 0;
+	left: 0;
+}
+
+@font-face{
+	font-family: Frente;
+   	src: url(FrenteH1-Regular.otf);
+
+}
+
+p{
+	position: relative;
+	display: inline;
+	font-family: Frente;
+	color: gray;
+	float: top;
+}
+.mainnav{
+	list-style-type-none;
+	padding: 0;
+	left: 0;
+	margin-right: auto;
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+li{
+	padding: 15%;
+	font-size: 150%;
+}
+li:hover{
+	color: yellow;
+	cursor: default;
+}
+
+#about{
+	display: none;
+	position: fixed;
+	height: auto;
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -150px;
+	border-radius: 5px;
+	background-color: white;
+	z-index: 3;
+	box-shadow: 5px 5px 10px gray;
+	padding: 25px;
+	font-size: x-large;
+	text-align: center;
+}
+
+#about2{
+	display: none;
+	position: fixed;
+	height: auto;
+	width: 500px;
+	top: 10%;
+	left: 50%;
+	margin-left: -200px;
+	border-radius: 5px;
+	background-color: white;
+	z-index: 3;
+	box-shadow: 5px 5px 10px gray;
+	padding: 25px;
+	font-size: x-large;
+	text-align: center;
+}
+
+#contact{
+	display: none;
+	position: fixed;
+	height: auto;
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -150px;
+	border-radius: 5px;
+	background-color: white;
+	z-index: 4;
+	box-shadow: 5px 5px 10px gray;
+	padding: 25px;
+	font-size: x-large;
+	text-align: center;
+}
+
+#gray{
+	display: none;
+	position: fixed;
+	float: left;
+	top: 0;
+	left: 0;
+	height: 3000px;
+	width: 3000px;
+	background-color: gray;
+	opacity: 0.75;
+	z-index: 1;
+}
+
+.close{
+	font-family: sans-serif;
+	font-size: large;
+	color: gray;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+
+}
+
+.close:hover{
+	color: #3F82CE;
+	cursor: default;
+}
+
+.emph{
+	color: #3F82CE;
+}
+h1{
+	font-family: Frente;
+	color: #3F82CE;
+	margin: 10px;
+}
+
+
+
